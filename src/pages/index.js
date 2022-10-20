@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Helmet } from 'react-helmet';
 
 import AttributeGrid from '../components/AttributeGrid';
 import Container from '../components/Container';
@@ -26,12 +27,13 @@ const IndexPage = () => {
 
   return (
     <Layout disablePaddingBottom>
+      <Helmet title="Clip by Miri" titleTemplate="%s | Home" />
       {/* Hero Container */}
       <Hero
         maxWidth={'500px'}
         image={'/banner1.png'}
-        title={'Essentials for a cold winter'}
-        subtitle={'Discover Autumn Winter 2021'}
+        title={'Essentials for a cute look'}
+        subtitle={'Get Ready For Autumn Winter 2022'}
         ctaText={'shop now'}
         ctaAction={goToShop}
       />

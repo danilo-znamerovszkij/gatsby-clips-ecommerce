@@ -7,7 +7,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Sydney Ecommerce Theme`,
+        name: `Clip by Miri`,
         short_name: `Sydney`,
         start_url: `/`,
         background_color: `#000000`,

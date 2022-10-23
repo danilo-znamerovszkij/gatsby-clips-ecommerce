@@ -18,7 +18,7 @@ import * as styles from './index.module.css';
 import { Link, navigate } from 'gatsby';
 
 const IndexPage = () => {
-  const newArrivals = generateMockProductData(3, 'shirt');
+  const newArrivals = generateMockProductData(4, 'clip');
   const blogData = generateMockBlogData(3);
 
   const goToShop = () => {
@@ -61,12 +61,12 @@ const IndexPage = () => {
       {/* New Arrivals */}
       <div className={styles.newArrivalsContainer}>
         <Container>
-          <Title name={'New Arrivals'} link={'/shop'} textLink={'view all'} />
+          <Title name={'Featured'} link={'/shop'} textLink={'view all'} />
           <ProductCardGrid
             spacing={true}
             showSlider
             height={480}
-            columns={3}
+            columns={4}
             data={newArrivals}
           />
         </Container>

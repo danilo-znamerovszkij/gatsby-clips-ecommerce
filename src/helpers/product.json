@@ -30,6 +30,34 @@
         "tags": ["shirt", "men"]
     },
     {
+        "name": "Daisy Clip",
+        "price": 8.99,
+        "alt": "daisy clip 1",
+        "image": "/products/clip1.jpeg",
+        "tags": ["shirt", "men", "clip"]
+    },
+    {
+        "name": "Plumeria Clip",
+        "price": 7.99,
+        "alt": "plumeria clip 1",
+        "image": "/products/clip2.jpeg",
+        "tags": ["shirt", "men", "clip"]
+    },
+    {
+        "name": "Blue Lily Clip",
+        "price": 12.99,
+        "alt": "daisy clip 1",
+        "image": "/products/clip3.jpeg",
+        "tags": ["shirt", "men", "clip"]
+    },
+    {
+        "name": "Bellis Clip",
+        "price": 8.99,
+        "alt": "daisy clip 1",
+        "image": "/products/clip4.jpeg",
+        "tags": ["shirt", "men", "clip"]
+    },
+    {
         "name": "Classic T-Shirt",
         "price": 75,
         "alt": "classic t-shirt 2",
